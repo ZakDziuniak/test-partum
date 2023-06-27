@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "../node_modules",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress"],
+    "noImplicitAny": false,
+    "useUnknownInCatchVariables": false
+  },
+  "include": [
+    "**/*.ts",
+    "../node_modules/@types/node/globals.d.ts",
+    "../node_modules/@types/node/index.d.ts",
+    "plugins/index.cy.js",
+    "support/commands.ts"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "prettier": "2.6.3",
+  "singleQuote": true,
+  "trailingComma": "all"
+}
