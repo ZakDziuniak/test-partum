@@ -10,9 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.16.0",
-    "del": "^7.0.0",
-    "lodash": "^4.17.21"
+    "cypress": "^12.16.0"
   },
   "devDependencies": {
     "prettier": "^2.8.8",
