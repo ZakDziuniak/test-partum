@@ -43,6 +43,6 @@ describe('Authoriozation tests', () => {
   });
 
   it('Check forgot password button', () => {
-    ICheckForgotPassword()
+    ICheckForgotPassword();
   });
 });

@@ -25,5 +25,5 @@ export function ICheckPasswordVisability() {
 }
 
 export function ICheckForgotPassword() {
-    authPage.clickForgotPassword()
+  authPage.clickForgotPassword();
 }
